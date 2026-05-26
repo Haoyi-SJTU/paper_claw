@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "literature-claw"
+version = "0.1.0"
+description = "AI-powered academic paper reader, summarizer, and writing assistant"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "litellm>=1.0",
+    "PyMuPDF>=1.23",
+    "python-docx>=1.0",
+    "Jinja2>=3.1",
+    "streamlit>=1.28",
+    "pybtex>=0.24",
+    "python-dotenv>=1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
