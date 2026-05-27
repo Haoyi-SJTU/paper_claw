@@ -1,4 +1,4 @@
-# Paper-claw: 文献解析与论文写作辅助工具
+# Paper-claw: 文献解析与学位论文写作指导
 
 ![](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
